@@ -1,0 +1,47 @@
+{
+  "full": {
+    "obj1": {
+      "obj1_str1": "hogehoge",
+      "obj1_obj1": {
+        "obj1_obj1_bool1": true,
+        "obj1_obj1_num1": 1
+      }
+    },
+    "arr1": [
+      {
+        "arr1_num1": 1,
+        "arr1_obj1": {
+          "arr1_obj1_num1": 1,
+          "arr1_obj1_str1": "fugafuga"
+        }
+      },
+      {
+        "arr1_num1": 2,
+        "arr1_obj1": {
+          "arr1_obj1_num1": 2,
+          "arr1_obj1_str1": "fugahoge"
+        }
+      }
+    ]
+  },
+  "omit": {
+    "obj1": {
+      "obj1_obj1": {
+        "obj1_obj1_num1": 1
+      }
+    },
+    "arr1": [
+      {
+        "arr1_num1": 1,
+        "arr1_obj1": {
+          "arr1_obj1_str1": "fugafuga"
+        }
+      },
+      {
+        "arr1_obj1": {
+          "arr1_obj1_num1": 2
+        }
+      }
+    ]
+  }
+}

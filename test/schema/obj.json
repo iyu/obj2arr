@@ -1,0 +1,110 @@
+{
+  "full": {
+    "type": "object",
+    "properties": {
+      "obj1": {
+        "id": "obj1",
+        "type": "object",
+        "properties": {
+          "obj1_str1": {
+            "id": "obj1_str1",
+            "type": "string"
+          },
+          "obj1_obj1": {
+            "id": "obj1_obj1",
+            "type": "object",
+            "properties": {
+              "obj1_obj1_bool1": {
+                "id": "obj1_obj1_bool1",
+                "type": "boolean"
+              },
+              "obj1_obj1_num1": {
+                "id": "obj1_obj1_num1",
+                "type": "number"
+              }
+            }
+          }
+        }
+      },
+      "arr1": {
+        "id": "arr1",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "arr1_num1": {
+              "id": "arr1_num1",
+              "type": "number",
+              "default": 0
+            },
+            "arr1_obj1": {
+              "id": "arr1_obj1",
+              "type": "object",
+              "properties": {
+                "arr1_obj1_num1": {
+                  "id": "arr1_obj1_num1",
+                  "type": "number"
+                },
+                "arr1_obj1_str1": {
+                  "id": "arr1_obj1_str1",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "omit": {
+    "obj1": {
+      "id": "obj1",
+      "type": "object",
+      "properties": {
+        "obj1_str1": {
+          "id": "obj1_str1",
+          "type": "string"
+        },
+        "obj1_obj1": {
+          "id": "obj1_obj1",
+          "type": "object",
+          "properties": {
+            "obj1_obj1_bool1": {
+              "id": "obj1_obj1_bool1",
+              "type": "boolean"
+            },
+            "obj1_obj1_num1": {
+              "id": "obj1_obj1_num1",
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "arr1": {
+      "id": "arr1",
+      "type": "array",
+      "items": {
+        "arr1_num1": {
+          "id": "arr1_num1",
+          "type": "number",
+          "default": 0
+        },
+        "arr1_obj1": {
+          "id": "arr1_obj1",
+          "type": "object",
+          "properties": {
+            "arr1_obj1_num1": {
+              "id": "arr1_obj1_num1",
+              "type": "number"
+            },
+            "arr1_obj1_str1": {
+              "id": "arr1_obj1_str1",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

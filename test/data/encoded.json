@@ -1,0 +1,52 @@
+{
+  "full": {
+    "obj1": {
+      "obj1_str1": "hogehoge",
+      "obj1_obj1": [
+        true,
+        1
+      ]
+    },
+    "arr1": [
+      [
+        1,
+        [
+          1,
+          "fugafuga"
+        ]
+      ],
+      [
+        2,
+        [
+          2,
+          "fugahoge"
+        ]
+      ] 
+    ]
+  },
+  "omit": {
+    "obj1": {
+      "obj1_str1": null,
+      "obj1_obj1": [
+        null,
+        1
+      ]
+    },
+    "arr1": [
+      [
+        1,
+        [
+          null,
+          "fugafuga"
+        ]
+      ],
+      [
+        0,
+        [
+          2,
+          null
+        ]
+      ] 
+    ]
+  }
+}

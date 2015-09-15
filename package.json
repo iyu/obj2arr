@@ -1,0 +1,33 @@
+{
+  "name": "obj2arr",
+  "version": "1.0.3",
+  "description": "convert object to array",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Yuhei Aihara",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "tap": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iyu/obj2arr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iyu/obj2arr/issues"
+  },
+  "homepage": "https://github.com/iyu/obj2arr",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "msgpack",
+    "toobj",
+    "toarr"
+  ]
+}

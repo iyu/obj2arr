@@ -1,0 +1,57 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "id": "obj1",
+      "type": "array",
+      "items": [
+        {
+          "id": "obj1_str1",
+          "type": "string"
+        },
+        {
+          "id": "obj1_obj1",
+          "type": "array",
+          "items": [
+            {
+              "id": "obj1_obj1_bool1",
+              "type": "boolean"
+            },
+            {
+              "id": "obj1_obj1_num1",
+              "type": "number"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arr1",
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": [
+          {
+            "id": "arr1_num1",
+            "type": "number",
+            "default": 0
+          },
+          {
+            "id": "arr1_obj1",
+            "type": "array",
+            "items": [
+              {
+                "id": "arr1_obj1_num1",
+                "type": "number"
+              },
+              {
+                "id": "arr1_obj1_str1",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
