@@ -1,6 +1,6 @@
 {
   "name": "obj2arr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "convert object to array",
   "main": "index.js",
   "scripts": {
