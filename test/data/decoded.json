@@ -41,6 +41,9 @@
         "arr1_obj1": {
           "arr1_obj1_num1": 2
         }
+      },
+      {
+        "arr1_num1": 1
       }
     ]
   }
